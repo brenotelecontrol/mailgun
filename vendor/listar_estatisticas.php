@@ -12,6 +12,7 @@ $valor = $_POST['campoValor'];
 $parametro = $_POST['campoParametro'];
 $duracao = $valor . $parametro;
 
+try{
 $result = $mgClient->get("$domain/stats/total", array(
     'event' => array('accepted', 'delivered', 'failed'),
     'duration' => $duracao
@@ -79,4 +80,13 @@ foreach ($result->http_response_body->stats as $item) {
 
 <?php
     include 'rodape.php';
+}catch (\Exception $e){
+    $errorMessage = $e->getMessage();
+    ?>
+    <div class="alert alert-danger" role="alert" align="center">
+        Parâmetros não encontrados
+    </div>
+    <?php
+    include 'rodape.php';
+}
 ?>

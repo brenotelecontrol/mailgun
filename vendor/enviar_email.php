@@ -16,12 +16,21 @@ $assunto = $_POST['campoAssunto'];
 $texto = $_POST['campoTexto'];
 
 # Make the call to the client.
-$result = $mgClient->sendMessage($domain, array(
-    'from'    => $de,
-    'to'      => $para,
-    'subject' => $assunto,
-    'text'    => $texto
-));
+try {
+    $result = $mgClient->sendMessage($domain, array(
+        'from' => $de,
+        'to' => $para,
+        'subject' => $assunto,
+        'text' => $texto
+    ));
+}catch (\Exception $e){
+    $errorMessage = $e->getMessage();
+?>
+    <div class="alert alert-danger" role="alert" align="center">
+        Não foi possível enviar e-mail de teste
+    </div>
+<?php
+}
 
 echo "<div class='sucesso'>E-Mail enviado com sucesso!</div>
     <script type='text/javascript'>

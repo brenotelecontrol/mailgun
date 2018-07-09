@@ -9,8 +9,8 @@ $mgClient = new Mailgun(CHAVE_MAILGUN);
 $domain = DOMAIN_MAILGUN;
 $email = $_POST['campoEmail'];
 
-$result = $mgClient->get("$domain/bounces/$email");
-
+try{
+    $result = $mgClient->get("$domain/bounces/$email");
 ?><br>
 <div class="container">
     <div class="row">
@@ -28,32 +28,34 @@ $result = $mgClient->get("$domain/bounces/$email");
                 <tr>
                     <th scope="col">Data</th>
                     <th scope="col">Entrada</th>
+                    <th scope="col">Cód. Erro</th>
                     <th scope="col">Ação</th>
                 </tr>
                 </thead>
                 <tbody>
                 <?php
-                    $linha=0;
-                    if (empty($result)) {
-                        ?>
-                        <div class="alert alert-danger" role="alert">
-                            Nenhum registro encontrado
-                        </div>
-                        <?php
-                    } else {
                     foreach ($result->http_response_body as $item) {
                 ?>
                 <tr>
                     <td><?=$item->created_at;?></td>
-                    <td align="center" id="email"><?=$item->address?></td>
+                    <td align="center" id="email" name="email"><?=$item->address?></td>
+                    <td align="center" id="codigoerr" name="codigoerr"><?=$item->code?></td>
                     <td align="center">
                         <form action="desbloquear_bounces.php" method="post">
+                            <input type="hidden" value="<?=$item->address?>" id="xemail" name="xemail">
                             <button class="btn btn-outline-danger btn-sm" type="submit">Desbloquear</button>
                         </form>
                     </td>
                 </tr>
+                <tr>
+                    <td scope="col" align="center" colspan="4" bgcolor="#b22222"><span style="color: white"><b>Mensagem de Erro</b></span></td>
+                </tr>
+                <tr>
+                    <td align="center" id="mensagemerr" colspan="4"><?=$item->error?></td>
+                </tr>
+                </tbody>
                 <?php
-                } }
+                }
                 ?>
                 </tbody>
             </table>
@@ -64,4 +66,13 @@ $result = $mgClient->get("$domain/bounces/$email");
 
 <?php
 include 'rodape.php';
+}catch (\Exception $e){
+    $errorMessage = $e->getMessage();
+?>
+    <div class="alert alert-danger" role="alert" align="center">
+        Endereço de e-mail <b><?=$email?></b> não encontrado
+    </div>
+<?php
+    include 'rodape.php';
+}
 ?>

@@ -5,7 +5,7 @@ use Mailgun\Mailgun;
 
 $mgClient = new Mailgun(CHAVE_MAILGUN);
 $domain = DOMAIN_MAILGUN;
-$email = $_POST['email'];
+$email = $_POST['xemail'];
 
 $result = $mgClient->delete("$domain/bounces/$email");
 
