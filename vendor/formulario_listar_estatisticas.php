@@ -25,9 +25,9 @@
                     <div class="col-md-6 mb-3">
                         <label for="validationTooltip01">Parâmetro</label>
                         <select class="form-control" id="campoParametro" name="campoParametro" required>
-                            <option value="h">h</option>
-                            <option value="d">d</option>
-                            <option value="m">m</option>
+                            <option value="h">hora</option>
+                            <option value="d">dia</option>
+                            <option value="m">mês</option>
                         </select>
                         <div class="invalid-tooltip">
                             Por favor selecionar o parâmetro.
@@ -41,9 +41,9 @@
                 <div class="collapse" id="collapseExample"><br>
                     <div class="card card-body">
                         O campo "Valor" deve ser numérico<br><br>
-                        h = hora<br>
-                        d = dia<br>
-                        m = mês<br>
+                        hora = busca estatísticas por hora <br>
+                        dia = busca estatísticas por dia<br>
+                        mês = busca estatísticas por mês<br>
                     </div>
                 </div>
             </form>
