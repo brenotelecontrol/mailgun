@@ -5,8 +5,6 @@ require 'autoload.php';
 
 use Mailgun\Mailgun;
 
-
-# Instantiate the client.
 $mgClient = new Mailgun(CHAVE_MAILGUN);
 $domain = DOMAIN_MAILGUN;
 
@@ -15,7 +13,6 @@ $para = $_POST['campoPara'];
 $assunto = $_POST['campoAssunto'];
 $texto = $_POST['campoTexto'];
 
-# Make the call to the client.
 try {
     $result = $mgClient->sendMessage($domain, array(
         'from' => $de,

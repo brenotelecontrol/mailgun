@@ -4,7 +4,6 @@ include 'config.php';
 require 'autoload.php';
 use Mailgun\Mailgun;
 
-# Instantiate the client.
 $mgClient = new Mailgun(CHAVE_MAILGUN);
 $domain = DOMAIN_MAILGUN;
 $email = $_POST['campoEmail'];

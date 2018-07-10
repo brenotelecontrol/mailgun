@@ -2,9 +2,9 @@
 include 'menu.php';
 include 'config.php';
 require 'autoload.php';
+
 use Mailgun\Mailgun;
 
-# Instantiate the client.
 $mgClient = new Mailgun(CHAVE_MAILGUN);
 $domain = DOMAIN_MAILGUN;
 
@@ -18,6 +18,7 @@ $result = $mgClient->get("$domain/stats/total", array(
     'duration' => $duracao
 ));
 ?><br>
+    <input type="hidden" id="duracao" valor="<?=$duracao?>">
 <div class="container">
     <div class="row">
         <div class="col"></div>
@@ -55,9 +56,7 @@ $result = $mgClient->get("$domain/stats/total", array(
 <?php
 $linha=0;
 foreach ($result->http_response_body->stats as $item) {
-    //$dataBR = date_create_from_format('D j M Y H:i:s e', $item->time);
-    //echo date($dataBR, 'D j M Y H:i:s O');
-    ?>
+?>
     <tr>
         <td><?=$item->time;?></td>
         <td align="center"><?=$item->accepted->incoming?></td>
@@ -72,7 +71,7 @@ foreach ($result->http_response_body->stats as $item) {
 }
 ?>
                 </tbody>
-            </table>
+            </table><br><br>
         </div>
         <div class="col"></div>
     </div>

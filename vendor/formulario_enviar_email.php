@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col"></div>
                 <div class="col-6">
-                    <form class="needs-validation" novalidate action="enviar_email.php" method="post">
+                    <form id="frmEmail" class="needs-validation" novalidate action="enviar_email.php" method="post">
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="validationTooltip01">From (De):</label>
@@ -42,14 +42,13 @@
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="validationTooltip01">Texto</label>
-                                <!-- <input type="text" class="form-control is-valid" id="campoTexto" placeholder="" value="" required> -->
                                 <textarea class="form-control" id="campoTexto" name="campoTexto" rows="10" required></textarea>
                                 <div class="invalid-tooltip">
                                     Por favor preencher o campo "Texto".
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-primary" type="submit">Enviar</button>
+                        <button class="btn btn-primary btn-toggle" type="submit">Enviar</button>
                     </form>
                 </div>
                 <div class="col"></div>
