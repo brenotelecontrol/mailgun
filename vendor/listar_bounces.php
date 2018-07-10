@@ -69,7 +69,7 @@ include 'rodape.php';
     $errorMessage = $e->getMessage();
 ?>
     <div class="alert alert-danger" role="alert" align="center">
-        Endereço de e-mail <b><?=$email?></b> não encontrado
+        Endereço de e-mail <b><?=$email?></b> não bloqueado
     </div>
 <?php
     include 'rodape.php';
