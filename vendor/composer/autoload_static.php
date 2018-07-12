@@ -27,6 +27,10 @@ class ComposerStaticInita9fa0a8555fa469471c6888e9d2d67c8
         array (
             'Psr\\Http\\Message\\' => 17,
         ),
+        'M' => 
+        array (
+            'Mirror\\' => 7,
+        ),
         'H' => 
         array (
             'Http\\Promise\\' => 13,
@@ -61,6 +65,10 @@ class ComposerStaticInita9fa0a8555fa469471c6888e9d2d67c8
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Mirror\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Mirror',
         ),
         'Http\\Promise\\' => 
         array (

@@ -9,6 +9,9 @@
                         <a class="nav-link" href="formulario_enviar_email.php">Enviar E-Mail</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="listar_log.php">Log</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="formulario_listar_estatisticas.php">Estatísticas</a>
                     </li>
                     <li class="nav-item">

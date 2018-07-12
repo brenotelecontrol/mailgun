@@ -1,7 +1,7 @@
 <?php
 
 include 'config.php';
-require 'autoload.php';
+require 'vendor/autoload.php';
 
 use Mailgun\Mailgun;
 
