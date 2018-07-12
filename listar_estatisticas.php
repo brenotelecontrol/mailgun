@@ -1,19 +1,23 @@
 <?php
 include 'menu.php';
 include 'config.php';
-require 'autoload.php';
+require 'vendor/autoload.php';
 
 use Mailgun\Mailgun;
 
 $mgClient = new Mailgun(CHAVE_MAILGUN);
 $domain = DOMAIN_MAILGUN;
 
+//$userMirror = new Mirror\User\User();
+
 $valor = $_POST['campoValor'];
 $parametro = $_POST['campoParametro'];
 $duracao = $valor . $parametro;
 
 try{
-$result = $mgClient->get("$domain/stats/total", array(
+    //$espelho = $userMirror->get("123");
+
+    $result = $mgClient->get("$domain/stats/total", array(
     'event' => array('accepted', 'delivered', 'failed'),
     'duration' => $duracao
 ));
@@ -56,9 +60,16 @@ $result = $mgClient->get("$domain/stats/total", array(
 <?php
 $linha=0;
 foreach ($result->http_response_body->stats as $item) {
+    $time = strtotime($item->time);
+    if ($parametro == 'h') {
+        $dateInLocal = date("d-m-Y H:i:s", $time);
+    } else {
+        $dateInLocal = date("d-m-Y", $time);
+    }
 ?>
     <tr>
-        <td><?=$item->time;?></td>
+
+        <td><?=$dateInLocal;?></td>
         <td align="center"><?=$item->accepted->incoming?></td>
         <td align="center"><?=$item->accepted->outgoing?></td>
         <td align="center"><?=$item->accepted->total?></td>

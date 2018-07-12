@@ -2,6 +2,7 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Mirror" isTestSource="false" packagePrefix="Mirror\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/.github" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/_data" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/_includes" />

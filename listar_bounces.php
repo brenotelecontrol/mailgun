@@ -1,7 +1,7 @@
 <?php
 include 'menu.php';
 include 'config.php';
-require 'autoload.php';
+require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 
 $mgClient = new Mailgun(CHAVE_MAILGUN);
@@ -34,9 +34,11 @@ try{
                 <tbody>
                 <?php
                     foreach ($result->http_response_body as $item) {
+                        $time = strtotime($item->created_at);
+                        $dateInLocal = date("d-m-Y H:i:s", $time);
                 ?>
                 <tr>
-                    <td><?=$item->created_at;?></td>
+                    <td><?=$dateInLocal;?></td>
                     <td align="center" id="email" name="email"><?=$item->address?></td>
                     <td align="center" id="codigoerr" name="codigoerr"><?=$item->code?></td>
                     <td align="center">
