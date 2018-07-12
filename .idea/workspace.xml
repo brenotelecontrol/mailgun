@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5099d1db-259c-464d-bd72-3e2e4f8247cb" name="Default" comment="" />
+    <list default="true" id="5099d1db-259c-464d-bd72-3e2e4f8247cb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/cabecalho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estilo_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listar_log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mailgun.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mailgun.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/cabecalho.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/desbloquear_bounces.php" beforeDir="false" afterPath="$PROJECT_DIR$/desbloquear_bounces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/enviar_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/enviar_email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/formulario_enviar_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulario_enviar_email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/formulario_listar_bounces.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulario_listar_bounces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/formulario_listar_estatisticas.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulario_listar_estatisticas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/listar_bounces.php" beforeDir="false" afterPath="$PROJECT_DIR$/listar_bounces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/listar_estatisticas.php" beforeDir="false" afterPath="$PROJECT_DIR$/listar_estatisticas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rodape.php" beforeDir="false" afterPath="$PROJECT_DIR$/rodape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/verificar_campos.js" beforeDir="false" afterPath="$PROJECT_DIR$/verificar_campos.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +41,7 @@
       <file leaf-file-name="listar_log.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/listar_log.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="584">
               <caret line="57" column="87" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
             </state>
@@ -28,6 +53,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+=======
+            <state relative-caret-position="480">
+              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
             </state>
           </provider>
         </entry>
@@ -35,8 +64,13 @@
       <file leaf-file-name="listar_bounces.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listar_bounces.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="178">
               <caret line="50" selection-start-line="50" selection-end-line="55" selection-end-column="21" />
+=======
+            <state relative-caret-position="760">
+              <caret line="65" column="6" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="65" selection-end-column="6" />
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
             </state>
           </provider>
         </entry>
@@ -90,10 +124,17 @@
         <option value="$PROJECT_DIR$/desbloquear_bounces.php" />
         <option value="$PROJECT_DIR$/enviar_email.php" />
         <option value="$PROJECT_DIR$/formulario_listar_log.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Mirror/User/UserAuth.php" />
         <option value="$PROJECT_DIR$/listar_bounces.php" />
         <option value="$PROJECT_DIR$/listar_estatisticas.php" />
         <option value="$PROJECT_DIR$/menu.php" />
+=======
+        <option value="$PROJECT_DIR$/menu.php" />
+        <option value="$PROJECT_DIR$/Mirror/User/UserAuth.php" />
+        <option value="$PROJECT_DIR$/listar_bounces.php" />
+        <option value="$PROJECT_DIR$/listar_estatisticas.php" />
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
         <option value="$PROJECT_DIR$/listar_log.php" />
       </list>
     </option>
@@ -152,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,12 +205,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../painel-telefonia-expressive" />
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,15 +253,26 @@
       <workItem from="1531135093319" duration="21553000" />
       <workItem from="1531221608832" duration="13194000" />
       <workItem from="1531313666802" duration="11226000" />
+<<<<<<< HEAD
       <workItem from="1531417172059" duration="6453000" />
+=======
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="100094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="93641000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -437,6 +493,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
@@ -456,6 +514,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/estilo_login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/User/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cabecalho.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="104" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desbloquear_bounces.php">
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="e#190#231#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/vendor/phplot-6.2.0/phplot.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/graficos_estatisticas.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/teste_grafico.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+=======
+    <entry file="file://$PROJECT_DIR$/enviar_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formulario_enviar_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formulario_listar_bounces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/estilo_login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -499,12 +625,37 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/formulario_listar_bounces.php">
+=======
+    <entry file="file://$PROJECT_DIR$/rodape.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/formulario_listar_estatisticas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formulario_listar_log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.php">
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -573,6 +724,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="57" column="87" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
+=======
+    <entry file="file://$PROJECT_DIR$/Mirror/User/UserAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listar_estatisticas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listar_bounces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="65" column="6" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listar_log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+>>>>>>> f778aef42e258a04c1ba101d022699f4ee14b41b
         </state>
       </provider>
     </entry>
