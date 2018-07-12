@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5099d1db-259c-464d-bd72-3e2e4f8247cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cabecalho.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estilo_login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listar_log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mailgun.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mailgun.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/cabecalho.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/desbloquear_bounces.php" beforeDir="false" afterPath="$PROJECT_DIR$/desbloquear_bounces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/enviar_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/enviar_email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/formulario_enviar_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulario_enviar_email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/formulario_listar_bounces.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulario_listar_bounces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/formulario_listar_estatisticas.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulario_listar_estatisticas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/listar_bounces.php" beforeDir="false" afterPath="$PROJECT_DIR$/listar_bounces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/listar_estatisticas.php" beforeDir="false" afterPath="$PROJECT_DIR$/listar_estatisticas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/rodape.php" beforeDir="false" afterPath="$PROJECT_DIR$/rodape.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/verificar_campos.js" beforeDir="false" afterPath="$PROJECT_DIR$/verificar_campos.js" afterDir="false" />
-    </list>
+    <list default="true" id="5099d1db-259c-464d-bd72-3e2e4f8247cb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +17,7 @@
       <file leaf-file-name="listar_log.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/listar_log.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="584">
               <caret line="57" column="87" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
             </state>
           </provider>
@@ -232,16 +208,15 @@
       <workItem from="1531135093319" duration="21553000" />
       <workItem from="1531221608832" duration="13194000" />
       <workItem from="1531313666802" duration="11226000" />
-      <workItem from="1531417172059" duration="6056000" />
+      <workItem from="1531417172059" duration="6453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99697000" />
+    <option name="totallyTimeSpent" value="100094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -596,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/listar_log.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="584">
           <caret line="57" column="87" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
         </state>
       </provider>
